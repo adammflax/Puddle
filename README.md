@@ -1,4 +1,4 @@
 Puddle
 ======
 
-Huddle Provider
+HuddleProvider
