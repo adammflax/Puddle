@@ -1,0 +1,5 @@
+C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\IsolatedStorage\IsolatedStorage\bin\Debug\IsolatedStorage.exe
+C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\IsolatedStorage\IsolatedStorage\bin\Debug\IsolatedStorage.pdb
+C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\IsolatedStorage\IsolatedStorage\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\IsolatedStorage\IsolatedStorage\obj\x86\Debug\IsolatedStorage.exe
+C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\IsolatedStorage\IsolatedStorage\obj\x86\Debug\IsolatedStorage.pdb
