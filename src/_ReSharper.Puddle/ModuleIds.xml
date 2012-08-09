@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="47D8C422-8CB7-4D40-8C23-A3F7717580C7" ModuleId="Puddle" />
+  <Module PersistentId="DynamicRest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="DynamicRest" />
+  <Module PersistentId="2B6AD75D-BC00-4083-A767-3375CA364DDA" ModuleId="Token" />
+</Modules>

@@ -1,0 +1,136 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E62DBFF6-412B-42BB-AE9A-962046C61CD2/f:RestClientBuilder.cs" caret="2735" fromTop="27" />
+      <File id="E62DBFF6-412B-42BB-AE9A-962046C61CD2/f:HttpVerbRequestBuilder.cs" caret="1832" fromTop="44" />
+      <File id="E62DBFF6-412B-42BB-AE9A-962046C61CD2/f:RestClient.cs" caret="4747" fromTop="32" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="348" fromTop="10" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:User.cs" caret="0" fromTop="0" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:Folder.cs" caret="164" fromTop="6" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:DocumentLibraryParameters.cs" caret="216" fromTop="11" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryInfo.cs" caret="390" fromTop="12" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:FolderFactory.cs" caret="334" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryInfo.cs" caret="0" fromTop="0" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2697" fromTop="19" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:DocumentLibraryParameters.cs" caret="13" fromTop="0" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryInfo.cs" caret="284" fromTop="8" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2678" fromTop="21" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="1394" fromTop="10" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2688" fromTop="41" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:Folder.cs" caret="473" fromTop="15" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:Folder.cs" caret="164" fromTop="6" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2125" fromTop="34" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:User.cs" caret="619" fromTop="21" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:User.cs" caret="572" fromTop="18" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:User.cs" caret="311" fromTop="16" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:User.cs" caret="580" fromTop="21" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:User.cs" caret="0" fromTop="0" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2676" fromTop="45" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2685" fromTop="61" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2688" fromTop="45" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2676" fromTop="50" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2676" fromTop="54" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2676" fromTop="46" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryInfo.cs" caret="420" fromTop="14" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:DocumentLibraryParameters.cs" caret="191" fromTop="8" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2125" fromTop="28" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="927" fromTop="23" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2676" fromTop="49" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="1394" fromTop="44" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="1853" fromTop="57" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="529" fromTop="15" />
+      <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="345" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False" />
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="ProviderCapabilities`0" priority="31" />
+      <Item value="protected" priority="127" />
+      <Item value="override" priority="191" />
+      <Item value="new" priority="223" />
+      <Item value="driveInfo" priority="63" />
+      <Item value="drive" priority="127" />
+      <Item value="Uri`0" priority="31" />
+      <Item value="Mandatory" priority="31" />
+      <Item value="var" priority="191" />
+      <Item value="this" priority="31" />
+      <Item value="as" priority="63" />
+      <Item value="DocumentLibraryParameters`0" priority="64" />
+      <Item value="libraryParams" priority="31" />
+      <Item value="string" priority="255" />
+      <Item value="if" priority="95" />
+      <Item value="is" priority="31" />
+      <Item value="HuddleDocumentLibraryInfo`0" priority="64" />
+      <Item value="return" priority="287" />
+      <Item value="null" priority="31" />
+      <Item value="public" priority="223" />
+      <Item value="DateTime`0" priority="63" />
+      <Item value="_driveParams" priority="31" />
+      <Item value="apiHost" priority="31" />
+      <Item value="path" priority="95" />
+      <Item value="private" priority="95" />
+      <Item value="User`0" priority="63" />
+      <Item value="_topLevelDomain" priority="31" />
+      <Item value="int" priority="31" />
+      <Item value="Id" priority="31" />
+      <Item value="id" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="explicit" priority="31" />
+      <Item value="operator" priority="31" />
+      <Item value="Folder`0" priority="31" />
+      <Item value="FolderFactory`0" priority="31" />
+      <Item value="factory" priority="31" />
+      <Item value="RestOperation`0" priority="30" />
+      <Item value="Folder" priority="28" />
+      <Item value="_response" priority="127" />
+      <Item value="folder" priority="95" />
+      <Item value="_user" priority="31" />
+      <Item value="User" priority="28" />
+      <Item value="GetFolderFromPath`0" priority="31" />
+      <Item value="WriteItemObject`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Management.Automation.Provider.ProviderCapabilities">
+      <Item value="None" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Puddle.HuddleDocumentLibraryProvider">
+      <Item value="DynamicParameters" priority="26" />
+      <Item value="PSDriveInfo" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Puddle.DocumentLibraryParameters">
+      <Item value="HuddleHostName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Puddle.HuddleDocumentLibraryInfo">
+      <Item value="APIHost" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DynamicRest.RestOperation">
+      <Item value="Result" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="26" />
+      <Item value="Empty" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Match`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

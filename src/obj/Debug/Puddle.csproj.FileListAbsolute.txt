@@ -1,0 +1,17 @@
+D:\dev\huddle\puddle\src\bin\Debug\Puddle.dll
+D:\dev\huddle\puddle\src\bin\Debug\Puddle.pdb
+D:\dev\huddle\puddle\src\bin\Debug\DynamicRest.dll
+D:\dev\huddle\puddle\src\bin\Debug\DynamicRest.pdb
+D:\dev\huddle\puddle\src\obj\Debug\ResolveAssemblyReference.cache
+D:\dev\huddle\puddle\src\obj\Debug\Puddle.dll
+D:\dev\huddle\puddle\src\obj\Debug\Puddle.pdb
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\Puddle.dll
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\Puddle.pdb
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\DynamicRest.dll
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\DynamicRest.pdb
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\obj\Debug\Puddle.dll
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\obj\Debug\Puddle.pdb
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\IsolatedStorage.exe
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\Machine.Specifications.dll
+C:\Users\adam.flax\Documents\Puddle\Puddle\src\bin\Debug\IsolatedStorage.pdb

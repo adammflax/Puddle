@@ -1,0 +1,62 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:SnapIn.cs" caret="85" fromTop="3" />
+    <File id="2B6AD75D-BC00-4083-A767-3375CA364DDA/d:Tests/f:When_using_a_good_auth_code.cs" caret="272" fromTop="9" />
+    <File id="2B6AD75D-BC00-4083-A767-3375CA364DDA/d:oAuth2/f:AuthorizationCodeTokenRequestWithSecretKey.cs" caret="0" fromTop="0" />
+    <File id="2B6AD75D-BC00-4083-A767-3375CA364DDA/d:oAuth2/f:AuthorizationCodeTokenRequest.cs" caret="385" fromTop="12" />
+    <File id="2B6AD75D-BC00-4083-A767-3375CA364DDA/d:oAuth2/f:TokenClient.cs" caret="1103" fromTop="26" />
+    <File id="2B6AD75D-BC00-4083-A767-3375CA364DDA/d:oAuth2/f:ReadAccessTokenFromFile.cs" caret="0" fromTop="0" />
+    <File id="2B6AD75D-BC00-4083-A767-3375CA364DDA/d:oAuth2/f:RefreshTokenRequest.cs" caret="272" fromTop="9" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:LinkManagers/f:manageLinks.cs" caret="257" fromTop="10" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:setToken.cs" caret="2901" fromTop="25" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:setObject.cs" caret="1178" fromTop="21" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:ProviderInfo/f:DocumentLibraryParameters.cs" caret="0" fromTop="0" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="4457" fromTop="21" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/f:ProviderRequests.cs" caret="1441" fromTop="19" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:SubDocumentFactory.cs" caret="1636" fromTop="32" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Actor.cs" caret="1061" fromTop="32" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Links.cs" caret="410" fromTop="17" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/d:HttpRequests/f:HttpRequests.cs" caret="3028" fromTop="19" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Workspace.cs" caret="380" fromTop="13" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Document.cs" caret="1443" fromTop="36" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:FolderFactory.cs" caret="1910" fromTop="63" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Folder.cs" caret="1052" fromTop="25" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:ProviderInfo/f:HuddleDocumentLibraryInfo.cs" caret="545" fromTop="20" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:EntryFactory.cs" caret="326" fromTop="13" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:DocumentFactory.cs" caret="13" fromTop="0" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:SubFolderFactory.cs" caret="1354" fromTop="39" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:DocumentFactory.cs" caret="1122" fromTop="20" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:FolderFactory.cs" caret="1640" fromTop="32" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:FolderFactory.cs" caret="1005" fromTop="22" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:FolderFactory.cs" caret="1638" fromTop="32" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:FolderFactory.cs" caret="1537" fromTop="27" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:FolderFactory.cs" caret="1121" fromTop="19" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="2710" fromTop="30" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/d:HttpRequests/f:HttpRequests.cs" caret="1801" fromTop="19" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/d:HttpRequests/f:HttpRequests.cs" caret="2249" fromTop="30" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/f:ProviderRequests.cs" caret="1428" fromTop="28" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="3907" fromTop="28" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="4049" fromTop="29" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Folder.cs" caret="645" fromTop="20" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/f:HuddleDocumentLibraryProvider.cs" caret="4435" fromTop="32" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/d:HttpRequests/f:HttpRequests.cs" caret="3341" fromTop="34" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Document.cs" caret="1345" fromTop="27" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/d:HttpRequests/f:HttpRequests.cs" caret="2688" fromTop="20" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:Requests/d:HttpRequests/f:HttpRequests.cs" caret="3040" fromTop="29" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Actor.cs" caret="368" fromTop="12" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:SubDocumentFactory.cs" caret="1716" fromTop="33" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/f:DocumentFactory.cs" caret="1609" fromTop="30" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Document.cs" caret="1892" fromTop="33" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Actor.cs" caret="993" fromTop="23" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Actor.cs" caret="853" fromTop="26" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Document.cs" caret="1631" fromTop="28" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Links.cs" caret="423" fromTop="17" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Document.cs" caret="1504" fromTop="23" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Actor.cs" caret="1061" fromTop="32" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Folder.cs" caret="1246" fromTop="30" />
+    <File id="47D8C422-8CB7-4D40-8C23-A3F7717580C7/d:parsing/d:Objects/d:Entities/f:Folder.cs" caret="995" fromTop="23" />
+  </RecentEdits>
+</RecentFiles>
