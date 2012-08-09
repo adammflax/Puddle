@@ -4,6 +4,7 @@ obj
 _ncrunch*
 _ReSharper*
 *.user
+*.suo
 
 # mstest test results
 TestResults
