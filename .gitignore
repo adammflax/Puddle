@@ -3,6 +3,7 @@ bin
 obj
 _ncrunch*
 _ReSharper*
+*.user
 
 # mstest test results
 TestResults
