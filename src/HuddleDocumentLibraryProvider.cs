@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using System.Collections;
 using System.Linq;
 using System.Management.Automation;
 using System.Management.Automation.Provider;
 using Puddle.ProviderInfo;
 using Puddle.Requests;
 using Puddle.parsing.Objects;
-
 
 namespace Puddle
 {
@@ -16,13 +14,19 @@ namespace Puddle
     {
         private ProviderRequests _request;
 
-
-
         protected override void GetItem(string path)
         {
-            _request = new ProviderRequests(this.PSDriveInfo as HuddleDocumentLibraryInfo);
+            _request = new ProviderRequests(PSDriveInfo as HuddleDocumentLibraryInfo);
 
-            if (IsAFolder(path))
+            if (IsADocument(path))
+            {
+                var document = _request.GetDocumentFromPath(path);
+                if (document != null)
+                {
+                    WriteItemObject(document, path, true);
+                }
+            }
+            else if (IsAFolder(path))
             {
                 var folder = _request.GetFolderFromPath(path);
                 if (folder != null)
@@ -30,19 +34,16 @@ namespace Puddle
                     WriteItemObject(folder, path, true);
                 }
             }
-            if(IsADocument(path))
+            else
             {
-                var document = _request.GetDocumentFromPath(path);
-                if(document != null)
-                {
-                    WriteItemObject(document, path, true);
-                }
+                var error = new ArgumentException("Invalid Path neither a file or a folder!");
+                WriteError(new ErrorRecord(error, "InvalidPath", ErrorCategory.InvalidArgument,path));
             }
         }
 
         protected override void GetChildItems(string path, bool recurse)
         {
-            _request = new ProviderRequests(this.PSDriveInfo as HuddleDocumentLibraryInfo);
+            _request = new ProviderRequests(PSDriveInfo as HuddleDocumentLibraryInfo);
             if (IsRootPath(path))
             {
                 var workspace = _request.GetEntryPoint();
@@ -55,10 +56,10 @@ namespace Puddle
                 }
             }
 
-            if (IsAFolder(path))
+            else if (IsAFolder(path))
             {
                 var folder = _request.GetSubFolderFromPath(path);
-                if(folder != null)
+                if (folder != null)
                 {
                     foreach (var fd in folder)
                     {
@@ -71,9 +72,14 @@ namespace Puddle
                 {
                     foreach (var dc in document)
                     {
-                        WriteItemObject(dc, dc.Link.FirstOrDefault(l => l.Rel == "self").ToString(), false);
+                        WriteItemObject(dc.Title, dc.Link.FirstOrDefault(l => l.Rel == "self").ToString(), false);
                     }
                 }
+            }
+            else
+            {
+                var error = new ArgumentException("Invalid child item path!");
+                WriteError(new ErrorRecord(error, "InvalidPath", ErrorCategory.InvalidArgument, path));
             }
         }
 
@@ -92,21 +98,53 @@ namespace Puddle
 
             if (itemTypeName == "folder")
             {
-                String xmlBody = String.Format("<folder title='{0}' description='{1}' />",fileEntityValue[1].Value, fileEntityValue[0].Value);
-                _request.CreateFileOrFolder(path, xmlBody);
+                String xmlBody = String.Format("<folder title='{0}' description='{1}' />", fileEntityValue[1].Value, fileEntityValue[0].Value);
+                _request.CreateFolder(path, xmlBody);
             }
 
-            if (itemTypeName == "document" || itemTypeName == "file")
+            else if (itemTypeName == "document" || itemTypeName == "file")
             {
-                if(!IsADocumentLibary(path))
+                if (!IsADocumentLibary(path))
                 {
-                    path = path = "/documents";
+                    path = path + "/documents";
                 }
                 String xmlBody = String.Format("<document title='{0}' description='{1}' />", fileEntityValue[1].Value, fileEntityValue[0].Value);
-                _request.CreateFileOrFolder(path, xmlBody);
+                var document = _request.CreateFile(path, xmlBody);
+
+                if (document != null)
+                {
+                    const string pattern = "uploads/(.*)";
+
+                    string uploadhRef = document.Link.Single(l => l.Rel == "upload").Href; //get rid of the parent path
+
+                    Match match = Regex.Match(uploadhRef, pattern, RegexOptions.IgnoreCase);
+
+                    if (match.Success)
+                    {
+                        WriteItemObject("files/uploads/" + match.Groups[1], "", false);
+                    }
+                }
+            }
+            else
+            {
+                if(itemTypeName != "folder" || itemTypeName != "file" || itemTypeName != "document")
+                {
+                    var error = new ArgumentException("Invalid type!");
+                    WriteError(new ErrorRecord(error, "Invalid Item", ErrorCategory.InvalidArgument, itemTypeName));
+                }
+
+                else if(newItemValue == null)
+                {
+                    var error = new ArgumentException("value is null!");
+                    WriteError(new ErrorRecord(error, "Null value!", ErrorCategory.InvalidArgument, null));
+                }
+                else
+                {
+                    var error = new ArgumentException("invalid path!");
+                    WriteError(new ErrorRecord(error, "InvalidPath", ErrorCategory.InvalidArgument, path));
+                }
             }
         }
-
 
         protected override void SetItem(string path, object value)
         {
@@ -114,9 +152,21 @@ namespace Puddle
             PSObject fileEntity = PSObject.AsPSObject(value);
             var fileEntityValue = fileEntity.Properties.ToArray();
 
-            var libraryParams = DynamicParameters as SetItemLibraryParameters;
+            if (IsFileUpload(path))
+            {
+                _request.UploadFile(path, fileEntity.ToString());
+            }
 
-            if (IsAFolder(path))
+            else if (IsADocument(path))
+            {
+                var document = _request.GetDocumentFromPath(path);
+                document.Title = fileEntityValue[1].Value.ToString();
+                document.Description = fileEntityValue[0].Value.ToString();
+
+                _request.EditFileOrFolder(path + "/edit", document.ToString());
+            }
+
+            else if (IsAFolder(path))
             {
                 var folder = _request.GetFolderFromPath(path);
                 folder.Title = fileEntityValue[1].Value.ToString();
@@ -124,29 +174,11 @@ namespace Puddle
 
                 _request.EditFileOrFolder(path + "/edit", folder.ToString());
             }
-
-            if(IsADocument(path))
+            else
             {
-                if (libraryParams.FileUploadType == null || libraryParams.FileUploadType == "edit" || libraryParams.FileUploadType == "both")
-                {
-                    var document = _request.GetDocumentFromPath(path);
-                    document.Title = fileEntityValue[1].Value.ToString();
-                    document.Description = fileEntityValue[0].Value.ToString();
-
-                    _request.EditFileOrFolder(path + "/edit", document.ToString());
-                }
-
-                if (libraryParams.FileUploadType == "upload" || libraryParams.FileUploadType == "both")
-                {
-                    
-                }
-
+                var error = new ArgumentException("invalid path!");
+                WriteError(new ErrorRecord(error, "InvalidPath", ErrorCategory.InvalidArgument, path));
             }
-        }
-
-        protected override object SetItemDynamicParameters(string path, object value)
-        {
-            return new SetItemLibraryParameters();
         }
 
         protected override string GetChildName(string path)
@@ -179,19 +211,19 @@ namespace Puddle
 
         private Boolean IsADocumentLibary(String path)
         {
-           var match = Regex.Match(path,"^((?!documents).)*$");
+            var match = Regex.Match(path, "^((?!documents).)*$");
 
-           if (match.Success)
-           {
-               return false;
-           }
+            if (match.Success)
+            {
+                return false;
+            }
 
-           return true;
+            return true;
         }
 
         protected override void RemoveItem(string path, bool recurse)
         {
-            _request = new ProviderRequests(this.PSDriveInfo as HuddleDocumentLibraryInfo);
+            _request = new ProviderRequests(PSDriveInfo as HuddleDocumentLibraryInfo);
             _request.DeleteFileOrFolder(path);
         }
 
@@ -225,6 +257,11 @@ namespace Puddle
                 return _request.GetFolderFromPath(path) != null;
             }
 
+            if(IsADocument(path))
+            {
+                return _request.GetDocumentFromPath(path) != null;
+            }
+
             return false;
         }
 
@@ -236,7 +273,7 @@ namespace Puddle
 
         private static bool IsADocument(string path)
         {
-            var match = Regex.Match(path, @"(?:membership::)?(?:\w+:[\\/])?(?<document>.*)$");
+            var match = Regex.Match(path, "\\bdocuments\\b");
 
             if (match.Success)
             {
@@ -247,7 +284,7 @@ namespace Puddle
 
         private static bool IsAFolder(string path)
         {
-            var match = Regex.Match(path, @"(?:membership::)?(?:\w+:[\\/])?(?<folder>.*)$");
+            var match = Regex.Match(path, "\\bfolders\\b");
 
             if (match.Success)
             {
@@ -255,6 +292,20 @@ namespace Puddle
             }
             return false;
         }
+
+        private Boolean IsFileUpload(string path)
+        {
+            const string pattern = "\\buploads\\b";
+            Match match = Regex.Match(path, pattern, RegexOptions.IgnoreCase);
+
+            if (match.Success)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
 
         protected override PSDriveInfo NewDrive(PSDriveInfo drive)
         {

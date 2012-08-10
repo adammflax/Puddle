@@ -8,12 +8,12 @@ namespace Puddle
     {
         public override string Description
         {
-            get { return "description"; }
+            get { return "Custom Provider for Huddle"; }
         }
 
         public override string Name
         {
-            get { return "name"; }
+            get { return "Puddle"; }
         }
 
         public override string Vendor

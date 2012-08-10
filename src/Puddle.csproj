@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProviderInfo\SetItemLibraryParameters.cs" />
+    <Compile Include="NewFilePath.cs" />
+    <Compile Include="Requests\HttpRequests\ApacheMimeTypeList.cs" />
+    <Compile Include="Requests\HttpRequests\GetMutiPartData.cs" />
+    <Compile Include="Requests\HttpRequests\Mime.cs" />
     <Compile Include="setObject.cs" />
     <Compile Include="parsing\LinkManagers\manageLinks.cs" />
     <Compile Include="parsing\Objects\SubDocumentFactory.cs" />
@@ -76,7 +79,9 @@
       <Name>Token</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Tests\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

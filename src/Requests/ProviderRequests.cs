@@ -36,14 +36,25 @@ namespace Puddle.Requests
             var response = SendRequest(_requests.GetHttpDeleteRequestFolderOrDocument(_linkManager.GetFolderUri(path, _drive), _drive));
         }
 
+        public void UploadFile(String path, String fileName)
+        {
+            var response =SendRequest(_requests.GetUploadDocumentContent(_linkManager.GetFolderUri(path, _drive), _drive, fileName));
+        }
+
         public void EditFileOrFolder(string path, string body)
         {
             var response = SendRequest(_requests.GetHttpPutRequestFolderOrDocument(_linkManager.GetFolderUri(path, _drive), _drive, body));
         }
 
-        public void CreateFileOrFolder(string path, string body)
+        public void CreateFolder(string path, string body)
         {
             var response = SendRequest(_requests.GetHttpPostRequestFolderOrDocument(_linkManager.GetFolderUri(path, _drive), _drive, body));
+        }
+
+        public Document CreateFile(string path, string body)
+        {
+            var response = SendRequest(_requests.GetHttpPostRequestFolderOrDocument(_linkManager.GetFolderUri(path, _drive), _drive, body));
+            return new DocumentFactory(response);
         }
 
         public Document GetDocumentFromPath(string path)

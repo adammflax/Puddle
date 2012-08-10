@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Text;
 using DynamicRest;
 using DynamicRest.Fluent;
@@ -73,24 +74,17 @@ namespace Puddle.Requests.HttpRequests
 
         public RestOperation GetUploadDocumentContent(string uri, HuddleDocumentLibraryInfo drive, string filePath)
         {
-            string boundary = "uploadDocumentContentBoundaryString " + Guid.NewGuid();
+            string boundary = Guid.NewGuid().ToString();
+            var data = new GetMutiPartData(filePath);
+
             var restClientBuilder = new RestClientBuilder()
                 .WithUri(uri)
                 .WithContentType("multipart/form-data; boundary=" + boundary)
                 .WithOAuth2Token(drive.GetAccessToken())
-                .WithBody(GetMutiPartData(filePath, boundary))
+                .WithBody(data.ConstructMutiPartData(boundary))
                 .WithAcceptHeader(AcceptHeader);
             var response = restClientBuilder.Build().Put();
             return response;
-        }
-
-        private string GetMutiPartData(String filePath, String boundary)
-        {
-            StringBuilder builder = new StringBuilder();
-
-            builder.Append("--[" + boundary + "]--");
-
-            return builder.ToString();
         }
 
         public RestOperation GetHttpEntryPoint(string uri, HuddleDocumentLibraryInfo drive)

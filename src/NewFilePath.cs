@@ -8,12 +8,10 @@ using Puddle.parsing.Objects;
 
 namespace Puddle
 {
-    [Cmdlet("New", "object")]
-    public class SetObject : PSCmdlet
+    [Cmdlet("New", "filepath")]
+    public class NewFilePath : PSCmdlet
     {
-        private string _title;
-        private string _desc;
-
+        private string _path;
         #region Parameters
 
         /// <summary>
@@ -26,26 +24,18 @@ namespace Puddle
         /// the Get-Proc cmdlet will work.
         /// </summary>
         [Parameter(Mandatory = true)]
-        public string Title
+        public string Path
         {
-            get { return this._title; }
-            set { this._title = value; }
+            get { return this._path; }
+            set { this._path = value; }
         }
 
-        [Parameter(Mandatory = true)]
-        public string Desc
-        {
-            get { return this._desc; }
-            set { this._desc = value; }
-        }
 
         #endregion Parameters
 
         protected override void ProcessRecord()
         {
-            var folder = new Folder(Title, Desc);
-            WriteObject(folder);
-
+            WriteObject(Path);
             base.ProcessRecord();
         }
     }

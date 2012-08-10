@@ -15,7 +15,7 @@ namespace Puddle.parsing.Objects
 
         public override string ToString()
         {
-            return string.Format("<link rel='{0}' href='{1}'\n />", Href, Rel);
+            return string.Format("\n<link rel='{0}' href='{1}'/>", Href, Rel);
         }
 
     }
