@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:NavigationProviderParams/f:HuddleDocumentLibraryInfo.cs" caret="0" fromTop="0" />
+    <File id="FFD16704-DA37-4963-8E03-D4CCCA643395/f:RestClient.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/f:ResponseChildItemFactory.cs" caret="0" fromTop="0" />
+    <File id="FFD16704-DA37-4963-8E03-D4CCCA643395/f:StandardResultBuilder.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Builder/f:LinkBuilder.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Builder/f:WorkSpaceBuilder.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:ResourceRemover.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:ResourceCreater.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Builder/f:FolderBuilder.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Entities/f:Workspace.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:OAuth2/f:Token.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:ResourceFinder.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:setToken.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:OAuth2/f:GetToken.cs" caret="0" fromTop="0" />
+    <File id="FFD16704-DA37-4963-8E03-D4CCCA643395/f:ResponseProcessor.cs" caret="0" fromTop="0" />
+    <File id="FFD16704-DA37-4963-8E03-D4CCCA643395/f:JsonObject.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:OAuth2/f:TokenClient.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:OAuth2/f:RefreshTokenRequest.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:MutiPartRequest/f:ApacheMimeTypeList.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:OAuth2/f:ReadAccessTokenFromFile.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Entities/f:Link.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Entities/f:Folder.cs" caret="0" fromTop="0" />
+    <File id="FFD16704-DA37-4963-8E03-D4CCCA643395/f:XmlNode.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:OAuth2/f:SaveAccessTokenToFile.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:MutiPartRequest/f:GetMutiPartData.cs" caret="0" fromTop="0" />
+    <File id="8E884488-CD16-476C-9D11-16165564DD85/d:Tests/f:When_using_a_good_auth_code.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Entities/f:HuddleResourceObject.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Entity/d:Entities/f:Document.cs" caret="0" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="9337" fromTop="16" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="7456" fromTop="28" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="442" fromTop="38" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="404" fromTop="16" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="442" fromTop="15" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="442" fromTop="14" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="404" fromTop="6" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="350" fromTop="3" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="178" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="1090" fromTop="40" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="442" fromTop="11" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:PathManager.cs" caret="442" fromTop="9" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:NavigationProviderParams/f:HuddleDocumentLibraryInfo.cs" caret="531" fromTop="26" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:NavigationProviderParams/f:HuddleDocumentLibraryInfo.cs" caret="404" fromTop="12" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:NavigationProviderParams/f:HuddleDocumentLibraryInfo.cs" caret="215" fromTop="6" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:NavigationProviderParams/f:HuddleDocumentLibraryInfo.cs" caret="521" fromTop="17" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="818" fromTop="23" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="1163" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:ResourceUndoDelete.cs" caret="906" fromTop="18" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/d:Resource/f:ResourceUndoDelete.cs" caret="1347" fromTop="31" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="8092" fromTop="21" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="8090" fromTop="14" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="8090" fromTop="13" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="7902" fromTop="17" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="7320" fromTop="9" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="7357" fromTop="18" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="7184" fromTop="9" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="8780" fromTop="32" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="1993" fromTop="0" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="9337" fromTop="18" />
+    <File id="781BEDBA-2292-425A-A7A8-52413D3D37CC/f:Provider.cs" caret="8267" fromTop="14" />
+  </RecentEdits>
+</RecentFiles>
