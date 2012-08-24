@@ -5,7 +5,6 @@ using DynamicRest;
 using DynamicRest.Fluent;
 using Puddle.Requests.HttpRequests;
 using Token.OAuth2;
-using TokenTest.oAuth2;
 
 namespace Provider.Resource
 {

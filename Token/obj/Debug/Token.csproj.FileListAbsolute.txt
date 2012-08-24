@@ -10,3 +10,15 @@ C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Token\bin\Debu
 C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Token\bin\Debug\DynamicRest.pdb
 C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Token\bin\Debug\Newtonsoft.Json.dll
 C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Token\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\puddle\Token\bin\Debug\Token.dll.config
+D:\Dev\puddle\Token\bin\Debug\Token.dll
+D:\Dev\puddle\Token\bin\Debug\Token.pdb
+D:\Dev\puddle\Token\bin\Debug\DynamicRest.dll
+D:\Dev\puddle\Token\bin\Debug\Machine.Specifications.Clr4.dll
+D:\Dev\puddle\Token\bin\Debug\Machine.Specifications.dll
+D:\Dev\puddle\Token\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\puddle\Token\bin\Debug\DynamicRest.pdb
+D:\Dev\puddle\Token\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\puddle\Token\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\puddle\Token\obj\Debug\Token.dll
+D:\Dev\puddle\Token\obj\Debug\Token.pdb

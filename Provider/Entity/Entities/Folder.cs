@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Provider.Entity.Entities
 {
 
     public class Folder  : HuddleResourceObject
     {
-        [NonSerialized]
-        private FileAttributes _mode;
-
         public Folder(string description, DateTime created, DateTime updated, string title, Links links)
         {
             Links = links;
@@ -26,7 +24,17 @@ namespace Provider.Entity.Entities
 
         public FileAttributes Mode
         {
-            get { return _mode; }
+            get { return WorkoutMode(); }
+        }
+
+        private FileAttributes WorkoutMode()
+        {
+            if (Links.Any(x => x.Rel.Equals("create-folder")))
+            {
+                return FileAttributes.Directory;
+            }
+
+            return FileAttributes.ReadOnly;
         }
 
         public DateTime Created { get; private set; }

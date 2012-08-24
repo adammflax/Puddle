@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Xml;
+﻿using System.Xml;
 using Provider.Entity.Entities;
 
 namespace Provider.Entity.Builder

@@ -17,7 +17,16 @@ namespace Provider.Entity.Entities
         }
 
         public string Type { get; private set; }
-        public FileAttributes Mode { get; set;  }
+
+        public FileAttributes Mode
+        {
+            get { return WorkoutMode(); }
+        }
+
+        private FileAttributes WorkoutMode()
+        {
+            return FileAttributes.Directory;
+        }
     }
 
 }

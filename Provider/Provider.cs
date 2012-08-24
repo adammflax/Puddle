@@ -217,7 +217,8 @@ namespace Provider
                 if (childItem == null)
                     continue;
 
-                if (parentDivider > 0 && childItem.Title == parent.Substring(parentDivider + 1)) //found the bugger now return its self link
+                if (parentDivider > 0 && 
+                    childItem.Title.Equals(parent.Substring(parentDivider + 1),StringComparison.CurrentCultureIgnoreCase)) //found the bugger now return its self link
                 {
                     var selfLink = childItem.Links.Single(l => l.Rel == "self").Href;
                     return selfLink;

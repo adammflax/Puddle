@@ -65,7 +65,17 @@
     <Compile Include="Entity\Entities\Links.cs" />
     <Compile Include="newFileLocation.cs" />
     <Compile Include="Resource\PathManager.cs" />
+    <Compile Include="Resource\BasePathManager.cs" />
     <Compile Include="Resource\ResourceUndoDelete.cs" />
+    <Compile Include="Tests\Entity\When_Document_Factory_Is_Called.cs" />
+    <Compile Include="Tests\Entity\When_Link_Is_Created.cs" />
+    <Compile Include="Tests\Entity\When_WorkSpace_Factory_Is_Called.cs" />
+    <Compile Include="Tests\Entity\When_Folder_Factory_Is_Called.cs" />
+    <Compile Include="Tests\MutiPartRequest\WhenMemeIsBeingFoundWithUnknownType.cs" />
+    <Compile Include="Tests\MutiPartRequest\When_Meme_is_being_found.cs" />
+    <Compile Include="Tests\Resource\When_bad_path_is_passed.cs" />
+    <Compile Include="Tests\Resource\FakePathManager.cs" />
+    <Compile Include="Tests\Resource\When_good_path_is_passed.cs" />
     <Compile Include="UndoDelete.cs" />
     <Compile Include="Entity\Builder\DocumentBuilder.cs" />
     <Compile Include="Entity\Builder\FolderBuilder.cs" />
@@ -102,19 +112,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Token\Token.csproj">
-      <Project>{8E884488-CD16-476C-9D11-16165564DD85}</Project>
-      <Name>Token</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="Token\Token.csproj">
+      <Project>{8E884488-CD16-476C-9D11-16165564DD85}</Project>
+      <Name>Token</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

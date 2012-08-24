@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace Provider.Entity.Entities
 {
@@ -26,6 +27,19 @@ namespace Provider.Entity.Entities
         public int Size { get; private set;  }
         public string Version { get; private set; }
 
-        public FileAttributes Mode { get;set; }
+        public FileAttributes Mode
+        {
+            get { return WorkoutMode(); }
+        }
+
+        private FileAttributes WorkoutMode()
+        {
+            if (Links.Any(x => x.Rel.Equals("edit")))
+            {
+                return FileAttributes.Normal;
+            }
+
+            return FileAttributes.ReadOnly;
+        }
     }
 }

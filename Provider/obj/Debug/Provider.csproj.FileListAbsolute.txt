@@ -11,3 +11,16 @@ C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Provider\bin\D
 C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Provider\bin\Debug\Newtonsoft.Json.dll
 C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Provider\bin\Debug\Newtonsoft.Json.xml
 C:\Users\adam.flax\Documents\Visual Studio 2010\Projects\Provider\Provider\bin\Debug\Machine.Specifications.Clr4.dll
+D:\Dev\puddle\Provider\bin\Debug\Provider.dll
+D:\Dev\puddle\Provider\bin\Debug\Provider.pdb
+D:\Dev\puddle\Provider\bin\Debug\DynamicRest.dll
+D:\Dev\puddle\Provider\bin\Debug\Machine.Specifications.Clr4.dll
+D:\Dev\puddle\Provider\bin\Debug\Machine.Specifications.dll
+D:\Dev\puddle\Provider\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\puddle\Provider\bin\Debug\Token.dll
+D:\Dev\puddle\Provider\bin\Debug\Token.pdb
+D:\Dev\puddle\Provider\bin\Debug\DynamicRest.pdb
+D:\Dev\puddle\Provider\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\puddle\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\puddle\Provider\obj\Debug\Provider.dll
+D:\Dev\puddle\Provider\obj\Debug\Provider.pdb
